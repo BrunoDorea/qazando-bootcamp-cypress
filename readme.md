@@ -19,7 +19,7 @@ Repositório criado para o bootcamp de Cypress feito pela QAzando.
 ## 🚀 Tecnologias
 
 <p align="center">
-  <img src="">
+  <img src="https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e">
 </p>
 
 ## 📝 License
