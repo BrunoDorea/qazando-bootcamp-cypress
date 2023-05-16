@@ -21,5 +21,5 @@ npx cypress open
 executar testes
 
 ```cli
-npx cypress run --record --key 56b73a2d-e94e-4c61-bd36-2c5e800d5fab
+npx cypress run
 ```
