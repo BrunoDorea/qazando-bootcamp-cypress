@@ -23,8 +23,7 @@ jobs:
         with:
           record: true
         env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CYPRESS_RECORD_KEY: 56b73a2d-e94e-4c61-bd36-2c5e800d5fab
 
       - name: Upload relatório
         uses: actions/upload-artifact@v3
