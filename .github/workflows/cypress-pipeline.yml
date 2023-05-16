@@ -19,11 +19,11 @@ jobs:
         run: npm install
 
       - name: Cypress run
-        uses: cypress-io/github-action@v5.7.2
+        uses: cypress-io/github-action@v5
         with:
           record: true
         env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          CYPRESS_RECORD_KEY: 56b73a2d-e94e-4c61-bd36-2c5e800d5fab
 
       - name: Upload relatório
         uses: actions/upload-artifact@v3
